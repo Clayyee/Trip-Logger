@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_title_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:id="@+id/crime_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/crime_title_hint"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/crime_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/crime_destination_hint"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trip Type" />
+
+    <EditText
+        android:id="@+id/crime_triptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type of Trip" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/crime_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/crime_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comment" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_details_label"
+        style="?android:listSeparatorTextViewStyle" />
+    <Button
+        android:id="@+id/crime_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <CheckBox
+        android:id="@+id/crime_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/crime_solved_label"/>
+</LinearLayout>
